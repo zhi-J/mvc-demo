@@ -1,0 +1,19 @@
+#app2 {
+  border: 1px solid red;
+}
+#app2 .bar {
+  border: 1px solid blue;
+  display: flex;
+}
+#app2 .bar > li {
+  border: 1px solid black;
+  width: 50%;
+}
+#app2 .content {
+}
+#app2 .content > li {
+  display: none;
+}
+#app2 .content > li.active {
+  display: block;
+}
